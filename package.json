@@ -1,0 +1,21 @@
+{
+	"name": "mail-read-notification",
+	"version": "1.0.0",
+	"description": "Lets you know when your email has been opened.",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ."
+	},
+	"keywords": [],
+	"author": "Stormweb",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	},
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"express": "^4.17.1",
+		"quick.db": "^7.1.3"
+	}
+}
